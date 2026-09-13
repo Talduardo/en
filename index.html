@@ -112,6 +112,9 @@
   #hero{ --z: 1; background: var(--secondary); padding-top: 110px; padding-bottom: var(--space-lg); }
   #o-que-fazemos{
     --z: 2;
+    position: relative;
+    min-height: auto;
+    overflow: visible;
     background: var(--primary);
     border-radius: var(--radius-lg) var(--radius-lg) 0 0;
     box-shadow: var(--shadow-lg);
@@ -328,7 +331,6 @@
     .hero-eyebrow{ justify-content:center; }
     .hero-sub{ margin-left:auto; margin-right:auto; }
     .cards-grid{ grid-template-columns: repeat(2, 1fr); }
-    #o-que-fazemos{ position: relative; min-height: auto; overflow: visible; }
   }
   @media (max-width: 768px){
     .navbar{ padding: var(--space-sm) var(--space-md); }
